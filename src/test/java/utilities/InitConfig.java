@@ -12,6 +12,7 @@ public class InitConfig extends BaseClass{
 	{
 		if(env.equalsIgnoreCase("UAT"))
 		{
+			System.out.println("Environment is UAT.");
 			System.setProperty("webdriver.chrome.driver","src\\test\\resources\\drivers\\chromedriver.exe");
 			driver = new ChromeDriver();
 			driver.get("https://www.google.com");

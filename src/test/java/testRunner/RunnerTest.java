@@ -11,5 +11,5 @@ import cucumber.api.junit.Cucumber;
 		features = "src//test//resources//features",
 		glue = "stepDefs"
 		)
-public class Runner {
+public class RunnerTest {
 }
